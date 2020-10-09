@@ -96,7 +96,7 @@ author:
   name             : "Gabriel Magdaleno"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Portafolio"
-  location         : "Benidorm, Esapaña"
+  location         : "Benidorm, España"
   email            :
   links:
     - label: "Email"
@@ -113,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/gabrielmagdaleno"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
