@@ -53,7 +53,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : "true" # false (default)
 search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_provider          :  lunr (default) # algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -79,7 +79,7 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   :  Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
   - https://twitter.com/gmagdaleno1981
@@ -102,6 +102,7 @@ author:
   bio              : "Portafolio"
   location         : "Benidorm, España"
   email            :
+  github:          : "gabrielmagdaleno"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
