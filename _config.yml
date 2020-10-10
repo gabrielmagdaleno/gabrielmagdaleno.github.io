@@ -103,9 +103,9 @@ author:
   location         : "Benidorm, España"
   email            :
   links:
-    - label: "gmail"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-        url: "mailto: gmagdaleno1981@gmail.com"
+      #  url: "mailto: gmagdaleno1981@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
