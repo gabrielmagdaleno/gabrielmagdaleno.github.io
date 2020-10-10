@@ -120,10 +120,10 @@ author:
       #  url:  "https://github.com/gabrielmagdaleno"
     - label: "linkedin"
       icon: "fab fa-fw fa-linkedin"
-      #  url: "https://www.linkedin.com/in/gabriel-magdaleno-aular-a2476313a/"
-    - label: "instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      #s  url: "https://www.linkedin.com/in/gabriel-magdaleno-aular-a2476313a/"
+    - label: "Instagram"
+      icon:  fab fa-instagram
+        url: https://instagram.com/gmagdaleno/
 
 # Site Footer
 footer:
