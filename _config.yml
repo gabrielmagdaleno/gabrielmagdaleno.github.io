@@ -130,7 +130,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+        url: https://twitter.com/mmistakes 
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -216,7 +216,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Madrid
 
 
 # Plugins (previously gems:)
