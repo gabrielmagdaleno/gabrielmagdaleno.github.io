@@ -111,7 +111,7 @@ author:
       # url: "https://your-website.com"
     - label: "twitter"
       icon: "fab fa-fw fa-twitter-square"
-        url: "https://twitter.com/gmagdaleno1981"
+      #  url: "https://twitter.com/gmagdaleno1981"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       #  url: "https://facebook.com/"
