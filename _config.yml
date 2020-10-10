@@ -101,8 +101,8 @@ author:
   avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Portafolio"
   location         : "Benidorm, España"
-  email            :
-  github:          : "gabrielmagdaleno"
+  email            : "gmagdaleno1981@gmail.com"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
