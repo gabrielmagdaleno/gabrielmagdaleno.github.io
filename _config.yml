@@ -115,9 +115,9 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       #  url: "https://facebook.com/"
-    - label: "github"
-      icon: "fab fa-fw fa-github"
-      #  url:  "https://github.com/gabrielmagdaleno"
+    - label:  GitHub
+      icon:   fab fa-fw fa-github
+        url:  https://github.com/gabrielmagdaleno
     - label: "linkedin"
       icon: "fab fa-fw fa-linkedin"
       #  url: "https://www.linkedin.com/in/gabriel-magdaleno-aular-a2476313a/"
