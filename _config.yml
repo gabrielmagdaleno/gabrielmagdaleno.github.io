@@ -107,9 +107,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       #  url: "mailto: gmagdaleno1981@gmail.com"
-    - label: Website
+    - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://gmagdaleno.site"
+      # url: "https://gmagdaleno.site"
     - label: "twitter"
       icon: "fab fa-fw fa-twitter-square"
       #  url: "https://twitter.com/gmagdaleno1981"
