@@ -118,7 +118,7 @@ author:
       #  url: "https://facebook.com/"
     - label: GitHub
       icon: fab fa-fw fa-github
-      #  url: "https://github.com/gabrielmagdaleno"
+        url: "https://github.com/gabrielmagdaleno"
     - label: "Instagram"
       icon:  fab fa-fw fa-instagram
       # url: "htpps://wwww.instagram.com/gmagdaleno/"
