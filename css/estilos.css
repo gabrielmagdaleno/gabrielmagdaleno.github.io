@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?bqb2fe');
+    src: url('../fonts/icomoon.eot?bqb2fe#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?bqb2fe') format('truetype'),
+        url('../fonts/icomoon.woff?bqb2fe') format('woff'),
+        url('../fonts/icomoon.svg?bqb2fe#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+    content: "\e9fb";
+    color: #1877f2;
+}
+
+.icon-github:before {
+    content: "\ea25";
+}
+
+.icon-instagram:before {
+    content: "\ea83";
+    color: #e4405f;
+}
+
+.icon-twitter:before {
+    content: "\ec3e";
+    color: #1da1f2;
+}
+
+
+body
+{
+  /*   background: #777777; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: antiquewhite;
+    margin: 0;
+    /*border: 1px solid red;/*/
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:#1c2128;
+    height: 500px;
+}
+
+.header
+{
+    color: #806000;
+    padding: 40px;
+}
+
+.headerFoto
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.MyFoto
+{
+    border-radius: 50%;
+}
+
+.header h1
+{
+    font-size: 4em;
+    margin: 0;
+}
+
+.header h3
+{
+    font-size: 2em;
+    text-align: center;
+}
+
+.aboutContainer
+{
+    margin: 0;
+}
+
+.aboutMe
+{
+    text-align: center;
+ /*    background: #f8f6f6; */
+    margin: 0;
+    color: #222222;
+    line-height: 1.5;
+}
+
+.aboutMe h2
+{
+    margin: 0;
+    border-bottom: #333333;
+}
+
+.aboutMe p
+{
+    margin: 2em;
+    border-top: #777777;
+    border-bottom: #777777;
+}
+
+.social
+{
+    display: flex;
+    height: 100px;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.social-link
+{
+    margin: 1em 1em;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+  /*   background: #f8f6f6; */
+    color: #222222;
+}
+
+.portfolio
+{
+    display: grid;
+    grid-template: repeat(3, 500px)/repeat(2, 500px);
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* background: #fafafa; */
+}
+
+#portImage
+{
+    border-radius: 5px;
+}
+
+.portafolioPlatzi
+{
+    text-align: center;
+    background: #fafafa;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: #333333;
+    padding: 5px;
+   /*border: 1px solid red;*/
+}
