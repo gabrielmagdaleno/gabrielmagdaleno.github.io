@@ -26,25 +26,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-facebook:before {
-    content: "\e9fb";
-    color: #1877f2;
-}
-
-.icon-github:before {
-    content: "\ea25";
-}
-
-.icon-instagram:before {
-    content: "\ea83";
-    color: #e4405f;
-}
-
-.icon-twitter:before {
-    content: "\ec3e";
-    color: #1da1f2;
-}
-
 
 body
 {
@@ -139,7 +120,27 @@ body
     text-decoration: none;
     justify-content: center;
     font-size: 2em;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
 }
+
+.social-link.icon-twitter {
+    background-image: url('../logos/gorjeo.png');
+}
+
+.social-link.icon-github {
+    background-image: url("../logos/github.png");
+}
+
+.social-link.icon-linkedin {
+    background-image: url("../logos/linkedin.png");
+}
+
+.social-link.icon-instagram {
+    background-image: url("../logos/instagram.png");
+}
+
 
 .title
 {
@@ -177,10 +178,48 @@ body
     border-radius: 5px;
 }
 
+.portfolio-figure-3{
+    margin-bottom: 0;
+
+}
+
+.porfolio-caption-2{
+    /* margin-top: 0; */
+}
+
 .footer
 {
     text-align: center;
     background-color: #333333;
     padding: 5px;
-   /*border: 1px solid red;*/
+/*border: 1px solid red;*/
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+        border: 2px solid red;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        
+    }
+    .header h1{
+        font-size: 3em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .social-link{
+        font-size: 1em;
+        background-size: 40px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
 }
