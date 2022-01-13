@@ -95,6 +95,7 @@ body
 {
     margin: 0;
     border-bottom: #333333;
+    font-size: 1.8em;
 }
 
 .aboutMe p
@@ -202,12 +203,25 @@ body
 }
 
 @media screen and (max-width: 768px) {
-    .container{
-        
-    }
     .header h1{
         font-size: 3em;
         text-align: center;
+    }
+    .title{
+        font-size: 1.2em;
+    } 
+
+    .title h2{
+        margin-top: 0;
+    }
+    .social{
+        padding-bottom: 0;
+    }
+    .portfolio{
+        display:block
+    }
+    .portfolio article img{
+        width: 100%;
     }
 }
 
